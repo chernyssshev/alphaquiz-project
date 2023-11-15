@@ -1,0 +1,82 @@
+{
+  "users": [
+    {
+      "email": "email@mail.com",
+      "fullName": "Misha",
+      "password": "password",
+      "id": 1
+    },
+    {
+      "email": "misha@gmail.com",
+      "fullName": "Ivan ",
+      "password": "12345",
+      "id": 2
+    },
+    {
+      "email": "test@test.com",
+      "fullName": "Ivan",
+      "password": "1234567",
+      "id": 3
+    },
+    {
+      "email": "dadaya",
+      "fullName": "test2@test.com",
+      "password": "1215631",
+      "id": 4
+    },
+    {
+      "email": "dadaya",
+      "fullName": "test2@test.com",
+      "password": "1215631",
+      "id": 5
+    },
+    {
+      "email": "",
+      "fullName": "",
+      "password": "",
+      "id": 6
+    },
+    {
+      "email": "email@mail.com",
+      "fullName": "Misha",
+      "password": "password",
+      "id": 7
+    },
+    {
+      "email": "email@mail.com",
+      "fullName": "Misha",
+      "password": "password",
+      "id": 8
+    },
+    {
+      "email": "l4@mail.ru",
+      "fullName": "Leto",
+      "password": "step1",
+      "id": 9
+    },
+    {
+      "email": "student@mail.ru",
+      "fullName": "Ivan Chernyshev",
+      "password": "dok1",
+      "id": 10
+    },
+    {
+      "email": "student2@mail.ru",
+      "fullName": "Daubi Daubi",
+      "password": "12345",
+      "id": 11
+    },
+    {
+      "email": "Dura4ok@gmail.com",
+      "fullName": "Petrov Egor",
+      "password": "1337228",
+      "id": 12
+    },
+    {
+      "email": "student3@mail.ru",
+      "name": "Ivan Chernyshev",
+      "password": "222",
+      "id": 13
+    }
+  ]
+}
