@@ -22,10 +22,10 @@ export default {
   //функция запоминания авторизации
 
   mounted() {
-    let user = localStorage.getItem('users-info');
-    if (!user) {
-      this.$router.push({ name: "SignUp" });
-    }
+    //let user = localStorage.getItem('users-info');
+    // if (!user) {
+    //   this.$router.push({ name: "SignUp" });
+    // }
   },
 };
 </script>

@@ -26,17 +26,17 @@ export default {
   methods:{
     async login()
     {
-        let result = await axios.get(
-            `http://localhost:3000/users?email=${this.email}&password=${this.password}`
-        )
+        let result = await axios.post("http://localhost:8080/api/auth/authenticate", {
+        email: this.email,
+        password: this.password
+      });
 
-        if (result.status == 200 && result.data.length>0) 
-                {
-                    localStorage.setItem("user-info", JSON.stringify(result.data[0]));
-                    this.$router.push({ name: "Home" });
-                }
-
-        console.warn(result)
+      console.warn(result);
+      if (result.status == 200) 
+      {
+        localStorage.setItem("auth-token", result.data.token);
+        this.$router.push({ name: "Home" });
+      }
     }
   },
 
